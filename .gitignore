@@ -87,8 +87,6 @@ lint/tmp/
 # firebase
 google-services.json
 _artifacts
-.DS_Store
-firebase-crashlytics-ndk/.externalNativeBuild/
 
 .gradle
 /local.properties
@@ -101,3 +99,21 @@ firebase-crashlytics-ndk/.externalNativeBuild/
 /build
 /captures
 .cxx
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+# Android Studio
+.idea
+/.idea/*
+.navigation
+output.json
+
+#NDK
+obj/
+
+#Firebase config
+*/google-services.json

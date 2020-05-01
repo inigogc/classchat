@@ -76,5 +76,7 @@ public class MainActivity extends AppCompatActivity {
         Bundle bundle = new Bundle();
         bundle.putString(FA_EVENT_START_FIELD_SOURCE, source);
         mFirebaseAnalytics.logEvent(FA_EVENT_START_NAME, bundle);
+        ChatActivity.startActivity(this);
+        finish();
     }
 }

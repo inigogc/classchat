@@ -38,6 +38,8 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageV
             Glide.with(holder.civAvatar.getContext())
                     .load(chatMessage.getSenderAvatarURL())
                     .into(holder.civAvatar);
+        } else {
+            holder.civAvatar.setImageResource(android.R.drawable.ic_menu_help);
         }
     }
 

@@ -5,6 +5,7 @@ public class ChatMessage {
     private String messageText;
     private String senderName;
     private String senderAvatarURL;
+    private String messageImageURL;
 
     public ChatMessage(){}
 
@@ -44,5 +45,13 @@ public class ChatMessage {
 
     public void setSenderAvatarURL(String senderAvatarURL) {
         this.senderAvatarURL = senderAvatarURL;
+    }
+
+    public String getMessageImageURL() {
+        return messageImageURL;
+    }
+
+    public void setMessageImageURL(String messageImageURL) {
+        this.messageImageURL = messageImageURL;
     }
 }
